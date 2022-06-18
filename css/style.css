@@ -103,16 +103,35 @@ span {
     }
 
     .container {
-        display: block;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate( 0, 0);
+        margin: 0 20px;
     }
 
-    .trial-btn p {
-        width: 60%;
+    h1, p {
+        text-align: center;
+       
     }
 
-    .claim-btn {
-        padding: 15px 0 ;
+    .left-side {
+        width: 100%;
+        margin-bottom: 40px;
+        padding-right: 0;
     }
 
+    .form-container {
+        width: 100%;
+        padding: 20px;
+        border-radius: 6px;
+    }
+
+    body > div > div.right-side {
+        width: 100%;
+    }
 
 }
